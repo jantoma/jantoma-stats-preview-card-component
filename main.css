@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-* {
+
+
+:root {
     /* ### Primary */
     --Very-dark-blue-main-background: hsl(233, 47%, 7%);
     --Dark-desaturated-blue-card-background-blue: hsl(244, 38%, 16%);
@@ -9,6 +11,10 @@
     --White--main-heading-stats: hsl(0, 0%, 100%);
     --Slightly-transparent-main-paragraph: white hsla(0, 0%, 100%, 0.75);
     --Slightly-transparen-stat-headings: white hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+    
     padding: 0;
     margin: 0;
     box-sizing: -webkit-border-box;
